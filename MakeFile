@@ -1,0 +1,9 @@
+# Makefile for web deployment
+
+all: PutHTML
+
+PutHTML:
+	cp learnweb.html /var/www/html/learnweb/
+
+	echo "Current contents of your HTML directory: "
+	ls -l /var/www/html/learnweb/
